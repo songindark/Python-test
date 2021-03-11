@@ -1,10 +1,11 @@
 # 累加
 n = 0
-sum = 0
+# SUM
+s = 0
 for n in range(0, 101):  # n 范围 0-100,大于等于并小于
-    sum += n
+    s += n
     if n == 100:
-        print(sum)
+        print(s)
     elif n == 0:
         print('get zero')
     elif n == 101:
@@ -14,4 +15,4 @@ for n in range(0, 101):  # n 范围 0-100,大于等于并小于
     else:
         pass
         continue
-print("1 到 %d 之和为: %d" % (n, sum))
+print("1 到 %d 之和为: %d" % (n, s))
