@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # noinspection PyPep8Naming
 class Test(object):  # 定义父类
     __secretCount = 0  # 私有变量，两个下划线开头，声明该属性为私有，不能在类的外部被使用或直接访问
