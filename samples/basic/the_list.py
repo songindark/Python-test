@@ -8,5 +8,5 @@ print('classmates[0] =', classmates[0])
 print('classmates[1] =', classmates[1])
 print('classmates[2] =', classmates[2])
 print('classmates[-1] =', classmates[-1])
-classmates.pop()
+classmates.pop()#默认从后向先删
 print('classmates =', classmates)

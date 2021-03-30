@@ -9,4 +9,7 @@ d = {
 print('d[\'Michael\'] =', d['Michael'])
 print('d[\'Bob\'] =', d['Bob'])
 print('d[\'Tracy\'] =', d['Tracy'])
+print('Tracy in d =', 'Tracy' in d)
+print('d.get(\'Tracy\', -1) =', d.get('Tracy', -1))
+print('Thomas in d =', 'Thomas' in d)
 print('d.get(\'Thomas\', -1) =', d.get('Thomas', -1))
